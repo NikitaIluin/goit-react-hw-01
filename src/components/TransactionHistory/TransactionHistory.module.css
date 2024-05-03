@@ -1,0 +1,37 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.head {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.tr {
+    border: 1px solid black;
+
+}
+
+.title {
+    background-color: #503d4a;
+    color: white;
+    border: 1px solid black;
+    padding: 15px 0;
+}
+
+.td {
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.type {
+    text-align: center;
+}
+
+.backColor {
+    background-color: lightgrey;
+}

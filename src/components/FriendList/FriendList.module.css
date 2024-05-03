@@ -1,0 +1,46 @@
+.friendList {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.friendCard {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.friendAvatar {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.friendName {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.statusIndicator {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
